@@ -3,7 +3,7 @@
 
 ## Overview
 
-This standard operating procedure (SOP) will take paired fastq reads and generate an ASV table with approximate taxonomy assignment. The reads must be paired, overlapping, and contain paired barcode information.
+This SOP will take paired fastq reads and generate an ASV table with approximate taxonomy assignment. The reads must be paired, overlapping, and contain paired barcode information.
 This pipeline was modified from [Greg Gloor's](https://github.com/ggloor/miseq_bin), and the [dada2 tutorial](https://benjjneb.github.io/dada2/tutorial.html).
 
 ## Get your data
