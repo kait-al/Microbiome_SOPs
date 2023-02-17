@@ -8,7 +8,7 @@ This pipeline was modified from [Greg Gloor's](https://github.com/ggloor/miseq_b
 
 ## Get your data
 
-London Regional Genomics Centre (LRGC) posts Illumina MiSeq reads to Basespace. Unless you have your own account, runs will be posted to the general Burton Lab account - [email me](kal@uwo.ca) for login details.
+London Regional Genomics Centre (LRGC) posts Illumina MiSeq reads to Basespace. Unless you have your own account, runs will be posted to the general Burton Lab account - [email me](mailto:kal@uwo.ca) for login details.
 
 Under 'Runs' select your study, then inspect the quality of your run (Data by cycle %>=Q30). To download, go to File>Download>Run. Using the BaseSpace Sequence Hub Downloader, download the FASTQ files. They will be several GB - make sure you have enough space!
 
@@ -18,7 +18,7 @@ Under 'Runs' select your study, then inspect the quality of your run (Data by cy
 2. Make a folder called `reads` - put your .fastq.gz files from BaseSpace there.
 3. Make a folder called `scripts` - put a copy of your demultiplex, dada2 workflow, and other scripts there.
 4. Make a folder called `figures` - the quality profiles and error rates from dada2 will go here.
-5. Fill out the `samples.txt` file according to the plate used for PCR amplification and the corresponding barcodes. An example can be found in the [example_files](/example_files). Sample IDs must be unique for each set of barcodes, and use only upper and lower case letters, numbers, or underscores. No dashes, spaces, or brackets!
+5. Fill out the `samples.txt` file according to the plate used for PCR amplification and the corresponding barcodes. An example can be found in the [example_files](example_files). Sample IDs must be unique for each set of barcodes, and use only upper and lower case letters, numbers, or underscores. No dashes, spaces, or brackets!
 
 ## Unzip your reads file
 
