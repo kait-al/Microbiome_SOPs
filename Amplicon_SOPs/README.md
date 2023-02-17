@@ -28,7 +28,7 @@ gzip -d filename_R1_001.fastq.gz
 gzip -d filename_R2_001.fastq.gz
 ```
 
-## Demultiplex reads
+## Demultiplex your reads
 
 Navigate back to your main working directory. Your reads should be in the `reads` folder, and you need to make an `mmv_patterns.sh` based on your `samples.txt` file.
 
