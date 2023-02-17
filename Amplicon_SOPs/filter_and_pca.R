@@ -54,3 +54,8 @@ d.mvar <- sum(pca$sdev^2)
 PC1 <- paste("PC1: ", round(sum(pca$sdev[1]^2)/d.mvar, 3))
 PC2 <- paste("PC2: ", round(sum(pca$sdev[2]^2)/d.mvar, 3))
 biplot(pca, var.axes=T, scale=0, xlab=PC1, ylab=PC2, cex=c(0.6, 0.6))
+
+# Beta diversity
+# Compute Aitchison distances
+aitch_dists <- as.matrix(dist(clr))
+write.table(aitch_dists, file="data/aitchdist_filtered.txt", sep="\t", quote=F)
