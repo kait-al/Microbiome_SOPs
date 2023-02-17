@@ -1,2 +1,2 @@
 # Microbiome_SOPs
-Wet lab and bioinformatic workflows for microbial sequencing data
+A work in progress: wet lab and bioinformatic workflows for microbial sequencing data
