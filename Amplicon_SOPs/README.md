@@ -71,7 +71,7 @@ Final output will be 3 files in a new folder called `data`:
 
 ## Cleanup
 
-Original .fastq files from Basespace in `reads` should be compressed back to .fasq.gz:
+Original .fastq files from Basespace in `reads` should be compressed back to .fastq.gz:
 ```
 gzip reads/*.fastq
 ```
