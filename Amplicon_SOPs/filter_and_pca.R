@@ -2,14 +2,6 @@ library(zCompositions) # CZM
 
 library(dplyr) # Pipe
 
-library(ggplot2) # Plotting
-
-library(vegan) # envfit and diversity
-
-library(ggsci) # Colours
-
-library(ALDEx2) # ALDEx2
-
 #### Load data ####
 
 counts <- read.table("data/cutadapt_counts.txt", 
