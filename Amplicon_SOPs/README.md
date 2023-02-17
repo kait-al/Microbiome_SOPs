@@ -1,4 +1,4 @@
-# Burton lab dada2 pipeline for processing Illumina 16S reads
+# Burton lab pipeline for processing Illumina 16S reads
 ###### Kait Al, PhD. February 2023
 
 ## Overview
