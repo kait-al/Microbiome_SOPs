@@ -14,7 +14,7 @@ tax <- read.table("data/cutadapt_tax.txt",
 
 #### #load meta data table
 
-metadata<-read.table("metadata.txt", header=T, sep='\t', comment.char = "")
+metadata<-read.table("metadata.txt", header=T, row.names = 1, sep='\t', comment.char = "")
 metadata<-tibble::rownames_to_column(metadata, "SampleID")
 
 #### Filter ####
