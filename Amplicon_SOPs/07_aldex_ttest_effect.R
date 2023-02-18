@@ -3,7 +3,9 @@
 library(ALDEx2) 
 
 counts <- read.table("data/cutadapt_counts.txt", header = TRUE, row.names = 1, sep = "\t", check.names = FALSE, quote = "", stringsAsFactors = FALSE)
+#or use filtered_counts
 
+#transpose
 tc<-t(counts)
 
 #specify your groups
