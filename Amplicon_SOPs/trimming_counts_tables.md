@@ -6,7 +6,7 @@ Here are some examples on how to filter and inspect your data. Inspect your data
 ---
 ## Inspection
 
-Import your raw, unfiltered counts table into R. The counts table should have samples as columns and features as rows. Features can be amplicon sequence variants (SVs), genes, functional pathways, other taxonomic levels, etc. This SV table can be found in [example_files](/example_files). 
+Import your raw, unfiltered counts table into R. The counts table should have samples as columns and features as rows. Features can be amplicon sequence variants (SVs), genes, functional pathways, other taxonomic levels, etc. This SV table can be found in [example_files](example_files). 
 ```r
 d<-read.table("dada2_nochim_tax.txt", sep="\t", quote="", header=T, row.names=1)
 # include comment.char="" if your header line starts with #
