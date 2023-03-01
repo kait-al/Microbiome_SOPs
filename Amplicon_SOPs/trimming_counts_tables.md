@@ -1,7 +1,7 @@
 # Pruning and filtering your counts tables
 #### This was adapted from [this very helpful tutorial](https://github.com/jmmack/16S/blob/master/manipulating_counts_table.md) by Jean Macklaim.
 
-Here are some examples on how to filter and inspect your data. Inspect your dataset often!! Make sure it looks right after you manipulate it and before you proceed.
+Here are some examples on how to filter and inspect your data, beyond what was suggested in [04_filter_and_pca.R](04_filter_and_pca.R). Inspect your dataset often!! Make sure it looks right after you manipulate it and before you proceed.
 
 ---
 ## Inspection
