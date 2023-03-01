@@ -140,7 +140,8 @@ dim(d.4)
 # So we went from 935 to 23 SVs (97% of SVs are 0 in more than half of the samples!)
 ```
 
-Although these filtering steps were all performed separately, you could compound any of these filtering steps together. 
+Although these filtering steps were all performed separately, you could compound any of these filtering steps together.
+
 ---
 
 ## Select samples (columns) by name
