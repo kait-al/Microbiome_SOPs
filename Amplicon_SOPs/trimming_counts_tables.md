@@ -176,7 +176,7 @@ dim(df2)
 #352 228
 ```
 
-Use grep to include or exclude samples based on pattern matching. All the Healthy control urine samples start with "X4", whereas samples starting with "X1" are from stone formers.
+Use grep to include or exclude samples based on pattern matching. All the healthy control urine samples start with "X4", whereas samples starting with "X1" are from stone formers.
 ```r
 # make a new data frame of all stone former samples
 df.sf <- d.3[, grep("X1", colnames(d.3))]
