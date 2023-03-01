@@ -8,19 +8,20 @@ Here are some examples on how to filter and inspect your data. Inspect your data
 
 Import your raw, unfiltered counts table into R. The counts table should have samples as columns and features as rows. Features can be amplicon sequence variants (SVs), genes, functional pathways, other taxonomic levels, etc. This SV table can be found in [example_files](example_files). 
 ```r
-d<-read.table("dada2_nochim_tax.txt", sep="\t", quote="", header=T, row.names=1)
+d <- read.table("dada2_nochim_tax.txt", sep="\t", quote="", header=T, row.names=1)
 # include comment.char="" if your header line starts with #
 ```
 
-**Only** if your table has samples as rows, transpose it to use the rest of the code as-is:
+**Only** if your table has samples as rows, transpose it to run the rest of the code as-is:
 ```r
+# If necessary, transpose to samples as columns
 d <- t(d)
 ```
 
 Check your table dimensions (number of rows and columns):
 ```r
 dim(d)
-#[1] 935 284
+# 935 284
 ```
 
 Look at your column and row names:
@@ -56,9 +57,9 @@ Overall, we have 935 SVs and 283 samples. The last column (284) is the taxonomy 
 
 If, like this example, your taxonomy string is in the last column (here the column name is "tax.vector"), we have to remove it before proceeding. So that we dont lose it altogether, we will temporarily move it to another object called tax:
 ```r
-tax<-d$tax.vector
+tax <- d$tax.vector
 #get only the count columns
-dm<-d[,1:ncol(d)-1]
+dm <- d[,1:ncol(d)-1]
 dim(dm)
 #935 283
 ```
@@ -76,11 +77,11 @@ ncol(dm)-ncol(d.s)
 # 44
 ```
 
-So we went from 283 to 239 samples (44 removed).
+So we went from 283 to 239 samples (44 were removed).
 
 ---
 
-## Filter SVs (rows) based on different *frequency* cutoffs.
+## Filter SVs (rows) based on a *frequency* cutoff
 
 First calculate frequency:
 ```r
@@ -88,7 +89,7 @@ d.freq <- apply(d.s, 2, function(x){x/sum(x)})
 ```
 
 Think about your own dataset here. Based on your biological hypothesis, do you care more about rare or abundant taxa? Are samples derived from high (gut, vaginal, oral) or low (urine, tissue) bacterial abundance communities? How much of a role will contamination play? You can experiment with different cutoffs.
-I commonly use 0.01, 0.05, and 0.001. 
+I commonly use 0.01, 0.005, and 0.001. 
 
 Here we will start by keeping SVs with a frequency of > 0.01 (1%) in *any* sample: 
 ```r
@@ -130,7 +131,7 @@ dim(d.3)
 # So we went from 935 to 352 SVs
 ```
 
-Discard SVs if it is a zero in half or more of the samples:
+Discard SVs if it is a zero in at least half the samples:
 ```r
 cutoff = .5
 d.4 <- data.frame(d.s[which(apply(d.s, 1, function(x){length(which(x != 0))/length(x)}) > cutoff),]) 
@@ -139,11 +140,12 @@ dim(d.4)
 # So we went from 935 to 23 SVs (97% of SVs are 0 in more than half of the samples!)
 ```
 
+Although these filtering steps were all performed separately, you could compound any of these filtering steps together. 
 ---
 
 ## Select samples (columns) by name
 
-Make a vector of the column names to keep for downstream analysis. These can be separated into comparison groups of interest.
+Make a vector of the column names to *keep* for downstream analysis. These can be separated into comparison groups of interest.
 ```r
 # Stone-formers Pre-Op urine
 # n = 84, only 5 shown here for simplicity
@@ -163,7 +165,7 @@ dim(df1)
 # 352 15
 ```
 
-Make a vector of the column names to exclude for downstream analysis. For example, remove your negative and positive controls if they are significantly distinct from your clinical samples (distinct on a biplot, or statistically distinct for example with envfit/permanova).
+You can also make a vector of the column names to *remove* from downstream analysis. For example, remove your negative and positive controls if they are significantly distinct from your clinical samples (distinct on a biplot, or statistically distinct for example with envfit/permanova).
 ```r
 remove<-c("DNAB1","DNAB3","PCRB1","PCRB2","PCRB3","SPIKE1_1","SPIKE1_2","SPIKE1_3","SPIKE2_1","SPIKE2_2","SPIKE2_3")
 length(remove)
@@ -173,7 +175,7 @@ dim(df2)
 #352 228
 ```
 
-Grep to include/exclude samples based on pattern matching. All the Healthy control urine samples start with "X4", whereas samples starting with "X1" are from stone formers.
+Use grep to include or exclude samples based on pattern matching. All the Healthy control urine samples start with "X4", whereas samples starting with "X1" are from stone formers.
 ```r
 # make a new data frame of all stone former samples
 df.sf <- d.3[, grep("X1", colnames(d.3))]
@@ -194,14 +196,12 @@ dim(df.no.hc)
 ```
 ---
 
-Although these filtering steps were all separately performed on d.freq and d.s, you could compound any of these filtering steps together. 
-
 ***Important***: As soon as you remove samples (or select a subset of samples), you are removing SV read counts. Therefore, the previous filters will no longer apply and you should re-filter. A 1% abundance filter from all samples is not the same as a 1% abundance filter on a subset of samples because the counts are different (the sample subset might not contain any of SV#X even though SV#X passed the 1% filter in the original dataset)!
 
 ---
 ## Final steps
 
-When you're done, if you want to put your taxonomy info back in:
+To put your taxonomy info back into a new column in your filtered df:
 ```r
 d.3$tax.vector = d$tax.vector[match(rownames(d.3), rownames(d))]
 ```
@@ -210,7 +210,7 @@ Or, you could make taxonomy your rownames earlier on, and remove the tax column.
 rownames(d)<-d$tax.vector
 d$tax.vector <- NULL
 ```
-Or, you could make taxonomy PLUS OTU number your rownames:
+Or, you could make taxonomy PLUS SV number your rownames:
 ```r
 rownames(d)<-paste(rownames(d), d$tax.vector, sep=";")
 d$tax.vector <- NULL
@@ -218,5 +218,5 @@ d$tax.vector <- NULL
 
 Write your final table with a descriptive name to use in your downstream analyses.
 ```r
-write.table(d, file="filtSV_01abund_1000minrc.txt", sep="\t", quote=F)
+write.table(df, file="filtSV_01abund_1000minrc.txt", sep="\t", quote=F)
 ```
