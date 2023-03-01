@@ -166,7 +166,7 @@ dim(df1)
 # 352 15
 ```
 
-You can also make a vector of the column names to *remove* from downstream analysis. For example, remove your negative and positive controls if they are significantly distinct from your clinical samples (distinct on a biplot, or statistically distinct for example with envfit/permanova).
+You can also make a vector of the column names to *remove* from downstream analysis. For example, remove outliers detected with CoDaSeq, or your negative and positive controls if they are significantly distinct from your clinical samples (distinct on a biplot, or statistically distinct for example with envfit/permanova).
 ```r
 remove<-c("DNAB1","DNAB3","PCRB1","PCRB2","PCRB3","SPIKE1_1","SPIKE1_2","SPIKE1_3","SPIKE2_1","SPIKE2_2","SPIKE2_3")
 length(remove)
