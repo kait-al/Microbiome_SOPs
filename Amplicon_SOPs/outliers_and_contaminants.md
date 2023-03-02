@@ -126,7 +126,7 @@ So 7 of the 935 SVs are considered contaminants with this mode. Apparently SV_96
 plot_frequency(physeq, taxa_names(physeq)[c(1,97)], conc="quant_reading") +
   xlab("DNA Concentration (PicoGreen fluorescent intensity)")
 ```
-![alt text](https://github.com/kait-al/Microbiome_SOPs/blob/main/Amplicon_SOPs/images/decontam.freq.jpg)
+<img src="https://github.com/kait-al/Microbiome_SOPs/blob/main/Amplicon_SOPs/images/decontam.freq.jpg" width=50% height=50%>
 
 The dashed black line shows the model of a noncontaminant sequence feature for which frequency is expected to be independent of the input DNA concentration. The red line shows the model of a contaminant sequence feature, for which frequency is expected to be inversely proportional to input DNA concentration, as contaminating DNA will make up a larger fraction of the total DNA in samples with very little total DNA.
 ```r
