@@ -71,6 +71,7 @@ geom_segment(data = loadings, aes(x = 0, y = 0, xend = (PC1*80), yend = (PC2*80)
                color = "darkgrey",
                inherit.aes = FALSE, size=0.3) +
 geom_point(data = values, aes(color=Cohort)) +
+#geom_text(data = values, aes(label=Row.names, hjust=-0.2), size=2)+
 scale_color_manual(values = cols) +
 guides(fill = guide_legend(override.aes=list(shape=21)))+
 annotate("text", x = (loadings$PC1*80), y = (loadings$PC2*80), label = loadings$Variables, size=2) +
