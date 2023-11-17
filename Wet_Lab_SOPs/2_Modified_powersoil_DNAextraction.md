@@ -4,7 +4,7 @@
 
 ## Overview
 
-This a modified protocol for the Qiagen DNeasy 96 PowerSoil Pro Kit with notes specific for Burton Lab's equipment.
+This a modified protocol for the Qiagen DNeasy 96 PowerSoil Pro Kit with notes specific for the Burton Lab's equipment.
 
 Sample loading will be sample-type-specific (see step 2). See the following reference for urine and stent -specific info:
 
