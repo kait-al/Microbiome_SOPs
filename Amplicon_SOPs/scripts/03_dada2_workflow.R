@@ -45,7 +45,7 @@ names(filtRs) <- sample_names
 # Change these parameters (trimLen) to optimize for your own data!
 # Based on Q 30 scores you may need to add the trimLeft=15 parameter
 # Base the truncLen based on the amplicon size, 
-# Uually around 175,155 for V4; 260,215 for V3-V4
+# Usually around 175,155 for V4; 260,215 for V3-V4
 out <- filterAndTrim(fnFs, filtFs, fnRs, filtRs, 
                      truncLen = c(175, 155), maxEE = c(2, 2), 
                      compress = TRUE, multithread = FALSE, verbose = TRUE)
