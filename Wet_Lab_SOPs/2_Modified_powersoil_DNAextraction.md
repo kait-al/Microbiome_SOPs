@@ -23,6 +23,9 @@ Important notes before starting:
 * Perform all centrifugation steps at room temperature (15-25 °C)
 * Use the electronic multichannel pipettor (Unit 1) and DNA extraction-specific Gilson pipettes stored in the extraction room
 * Use PCR-grade filter tips for all steps
+* Leave a well empty for the downstream PCR negative control
+* Leave a well empty (no sample added) to act as a DNA extraction negative control
+* Include one well as a positive control (we use [Zymo mock community standards](https://zymoresearch.eu/collections/zymobiomics-microbial-community-standards/products/zymobiomics-microbial-community-standard) or pure cultures of microbes that are not expected to be in high abundance in the given sample)
 
 
 ## Procedure
