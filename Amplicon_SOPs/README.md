@@ -8,7 +8,7 @@ This pipeline was modified from [Greg Gloor's](https://github.com/ggloor/miseq_b
 
 ## Get your data
 
-London Regional Genomics Centre (LRGC) posts Illumina MiSeq reads to Basespace. Unless you have your own account, runs will be posted to the general Burton Lab account - [email me](mailto:kal@uwo.ca) for login details.
+London Regional Genomics Centre (LRGC) posts Illumina MiSeq reads to Basespace. Unless you have your own account, runs will be posted to the general Burton Lab account - email me for login details (kal [at] uwo [dot] ca).
 
 Under 'Runs' select your study, then inspect the quality of your run (Data by cycle %>=Q30). To download, go to File>Download>Run. Using the BaseSpace Sequence Hub Downloader, download the FASTQ files. They will be several GB - make sure you have enough space!
 
@@ -30,7 +30,7 @@ gzip -d filename_R2_001.fastq.gz
 
 ## Demultiplex reads
 
-Navigate back to your main working directory. Your reads should be in the `reads` folder, and you need to make an `mmv_patterns.sh` based on your `samples.txt` file.
+Navigate back to your main working directory. Your reads should be in the `reads` folder, and you need to make an `mmv_patterns.sh` based on your `samples.txt` file (from [V4_primers_GolayBarcodes_Plates.xlsx](V4_primers_GolayBarcodes_Plates.xlsx).
 
 In R, use the following code chunk to generate fasta files with barcode info in your working directory.
 These files will link the 12-mer barcodes within the reads files with their accompanying barcode number i.e. 'Golay_L1', 'Golay_R1'.
