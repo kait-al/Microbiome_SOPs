@@ -33,7 +33,7 @@ Important notes before starting:
 
 2. Remove and discard the square well mat from the PowerBead Pro Plate. Add up to 0.25 g of soil sample or up to 0.1 g of stool sample in each well. Be careful to avoid cross contamination between sample wells. You can print off a nicely formatted 96-well plate layout [here](../96-well plate.pdf). All utensils for sample handling should be 10% bleach and RNAse Away sterilized (forceps, scissors, razor blades, mortar and pestle, etc.).
 	1. *Stool samples*: use a filter pipette tip to scoop up approximately 0.2 g sample and scrape it off the tip into the base of the well.
-	2. *Stool on toilet paper*: use sterilized forceps and scissors to dissect off a single-ply piece of visibly soiled TP approximately 1 cm x 1 cm, and transfer into the well. See [ref](https://doi.org/10.1016/j.mimet.2017.11.014)
+	2. *Stool on toilet paper*: use sterilized forceps and scissors to dissect off a single-ply piece of visibly soiled TP approximately 1 cm x 1 cm, and transfer into the well. See [ref](https://doi.org/10.1016/j.mimet.2017.11.014).
 	3. *Swabs*: should be polyurethane foam, not cotton or wood. Use sterilized scissors to cut the swab head directly into the well.
 	4. *Urine*: Should be stored as a frozen pellet. Add 100 μl PCR grade water to resuspend the pellet, and pipette into the well. For very large pellets, 200 μl water may be required.
 	5. *Kidney stones*: Using sterilized forceps, transfer stone to a sterile cell strainer mounted onto an empty 50 ml tube. Rinse by pipetting 1 ml of PCR-grade water over the external surface. Using freshly-sterilized forceps, transfer the stone to a sterilized mortar and pestle and pulverize into sand-like fragments. Suspend fragments in 100 μl PCR-grade water and pipette into the well.
@@ -69,7 +69,7 @@ Important: When using this assembly, do not exceed the recommended disruption ti
 
 15. Pipet samples up and down to mix. Use caution to avoid overflowing the wells from the volume of the pipette! 
 
-	It is safe to stop the protocol at this step and store the samples covered with 	Sealing Tape (user supplied) at 4 °C.  (Option to incubate plate at 10 mins at 4°C even if not pausing the protocol).
+	*It is safe to stop the protocol at this step and store the samples covered with Sealing Tape (user supplied) at 4 °C.  (Option to incubate plate at 10 mins at 4°C even if not pausing the protocol).*
 	
 16. Place a QIAamp 96 Spin Plate onto a new S-Block. If protocol was paused with plates at 4 °C, centrifuge briefly before removing plate seal.
 
@@ -81,7 +81,7 @@ Important: When using this assembly, do not exceed the recommended disruption ti
 
 20. Repeat steps 17-19 until all the supernatant has been processed. Discard the final flow-through. 
 
-If you haven't already, turn on the heat block and add C6 to bring to 60 °C.
+	*If you haven't already, turn on the heat block and add C6 to bring to 60 °C.*
 
 21. Place the QIAamp 96 Spin Plate back on the same S-Block. Add 500 μl of Solution EA to each well of the QIAamp 96 Spin Plate and seal the plate with a sealing tape.
 
