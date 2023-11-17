@@ -8,7 +8,7 @@ This a modified protocol for the Qiagen DNeasy 96 PowerSoil Pro Kit with notes s
 
 Sample loading will be sample-type-specific (see step 2). See the following reference for urine and stent -specific info:
 
-Al KF, Burton JP. Processing human urine and ureteral stents for 16S rRNA amplicon sequencing. STAR Protocols 2, 100435. [Link](https://doi.org/10.1016/ j.xpro.2021.100435)
+Al KF, Burton JP. Processing human urine and ureteral stents for 16S rRNA amplicon sequencing. STAR Protocols 2, 100435. [Link](https://doi.org/10.1016/j.xpro.2021.100435)
 
 
 
