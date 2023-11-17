@@ -25,9 +25,9 @@ Use the [primer ordering sheet example](../Amplicon_SOPs/Golay_indexed_primers_o
 
 2.2 Resuspend at 200 μM (aka pMole/μL) in PCR-grade water. Calculate the volume to add by multiplying the number of nmoles of primer by 5. For example if there were 84.5 nmoles, add 422.5 μL water.
 
-2.3 Give them enough time to re-suspend well (incubate at RT for 10 minutes or they could be stored at 4C overnight before proceeding).
+2.3 Give them enough time to re-suspend well (incubate at RT for 10 minutes or they could be stored at 4 °C overnight before proceeding).
 
-2.4 Store at -80 C. When thawing to use later, centrifuge briefly before opening the tubes.
+2.4 Store at -80 °C. When thawing to use later, centrifuge briefly before opening the tubes.
 
 ## 3. Calculate the working concentrations and volumes
 
@@ -64,7 +64,7 @@ Therefore we add 20 μL of 200 μM primer stock to 1230 μL PCR-grade water.
 
 5.5 Dispense R primers using "KA_R_Pri_Golay" Beckman protocol (takes approximately 30 minutes per plate). A fresh tip box is required for every plate. Order is very important! Never dispense R before L!
 
-5.6 These protocols generate 1 “stock” plate of all 6 unique layouts, each well within the plate contains 100 µL (50 µL of each L and R unique primer combo). You can proceed directly to step 6.2, or these plates can be sealed with an aluminum plate cover and stored at -80 C before aliquoting.
+5.6 These protocols generate 1 “stock” plate of all 6 unique layouts, each well within the plate contains 100 µL (50 µL of each L and R unique primer combo). You can proceed directly to step 6.2, or these plates can be sealed with an aluminum plate cover and stored at -80 °C before aliquoting.
 
 ## 6. Aliquot working plates from stock
 
@@ -72,4 +72,4 @@ Therefore we add 20 μL of 200 μM primer stock to 1230 μL PCR-grade water.
 
 6.2 Portion 20 µL from the “stock” plates into 4 duplicates so you end up with 5 x Plate 1- Plate 6 and each plate contains 20 µL (10 µL x  L, 10 µL x R) using protocol "Golay_primer_aliquots".
 
-6.3 Label all plates, seal with aluminum plate seals, and store at -80 C until use.
+6.3 Label all plates, seal with aluminum plate seals, and store at -80 °C until use.
