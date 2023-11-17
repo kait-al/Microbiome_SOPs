@@ -31,8 +31,9 @@ Important notes before starting:
 
 1. Centrifuge a PowerBead Pro Plate briefly to ensure that the beads have settled at the bottom. (1 minute at max speed, 3700 RPM or 2250 x g in eppendorf centrifuge)
 
-2. Remove and discard the square well mat from the PowerBead Pro Plate. Add up to 0.25 g of soil sample or up to 0.1 g of stool sample in each well. 
-Note: Avoid cross contamination between sample wells. All utensils for sample handling should be 10% bleach and RNAse Away sterilized (forceps, scissors, razor blades, mortar and pestle, etc.).
+2. Remove and discard the square well mat from the PowerBead Pro Plate. Add up to 0.25 g of soil sample or up to 0.1 g of stool sample in each well. Be careful to avoid cross contamination between sample wells.You can print off a nicely formatted 96-well plate layout [here](../96-well plate.pdf).
+
+All utensils for sample handling should be 10% bleach and RNAse Away sterilized (forceps, scissors, razor blades, mortar and pestle, etc.).
 	1. *Stool samples*: use a filter pipette tip to scoop up approximately 0.2 g sample and scrape it off the tip into the base of the well.
 	2. *Stool on toilet paper*: use sterilized forceps and scissors to dissect off a single-ply piece of visibly soiled TP approximately 1 cm x 1 cm, and transfer into the well. See [ref](https://doi.org/10.1016/j.mimet.2017.11.014)
 	3. *Swabs*: should be polyurethane foam, not cotton or wood. Use sterilized scissors to cut the swab head directly into the well.
@@ -40,47 +41,47 @@ Note: Avoid cross contamination between sample wells. All utensils for sample ha
 	5. *Kidney stones*: Using sterilized forceps, transfer stone to a sterile cell strainer mounted onto an empty 50 ml tube. Rinse by pipetting 1 ml of PCR-grade water over the external surface. Using freshly-sterilized forceps, transfer the stone to a sterilized mortar and pestle and pulverize into sand-like fragments. Suspend fragments in 100 μl PCR-grade water and pipette into the well.
 	6. *Stents*: Use a sterilized razor to slice a 1 cm segment from the proximal and distal ends. Rinse external surface by pipetting 1 ml of PCR-grade water over the external surface. Sterilize the razor again and slice open the rinsed segment length-wise to expose the inner lumen, then transfer into the well.
 
-3. Add 800 μl of Solution CD1 to the wells of the PowerBead Pro Plate. (Option to add less for low abundance samples that aren’t on swabs such as midstream urine pellets).
+4. Add 800 μl of Solution CD1 to the wells of the PowerBead Pro Plate. (Option to add less for low abundance samples that aren’t on swabs such as midstream urine pellets).
 
-4. Remove any residual liquid on top of the plate and secure the sealing film (provided) tightly onto the bead plate. Use a tool such as a scraper or plate roller to make the sealing film adhere firmly onto the plate. 
+5. Remove any residual liquid on top of the plate and secure the sealing film (provided) tightly onto the bead plate. Use a tool such as a scraper or plate roller to make the sealing film adhere firmly onto the plate. 
 Note: Liquid on top of the plate will prevent a tight sealing of the plate with the sealing film. A strong seal is essential to prevent leakage during disruption in the TissueLyser II.  
 
-5. Put the silicone compression mat (provided) on top of the bead plate that is sealed with the sealing film. 
+6. Put the silicone compression mat (provided) on top of the bead plate that is sealed with the sealing film. 
 Note: Two silicone compression mats are provided so that 2 plates can be processed in parallel in the TissueLyser II. The mats are reused for the remaining plates in the kit.
 
-6. Place this entire assembly between 2 Plate Adapter Sets for disruption in the TissueLyser II. 
+7. Place this entire assembly between 2 Plate Adapter Sets for disruption in the TissueLyser II. 
 Important: When using this assembly, do not exceed the recommended disruption time and setting of 2 x 5 min at 25 Hz, because extended processing might lead to leakage. 
 
-7. Shake at a speed of 25 Hz for 5 min. Re-orient the plates so that the side that was closest to the machine body is now furthest from it and shake again at speed of 25 Hz for
+8. Shake at a speed of 25 Hz for 5 min. Re-orient the plates so that the side that was closest to the machine body is now furthest from it and shake again at speed of 25 Hz for
 5 min. 
 
-8. Centrifuge for 12 minutes.
+9. Centrifuge for 12 minutes.
 
-9. Add 200 μl of Solution CD2 to the collection microtubes. 
+10. Add 200 μl of Solution CD2 to the collection microtubes. 
 
-10. Discard the sealing film. Turn the pipette aspiration speed down! Otherwise, the tips will get blocked by aspirating beads. TBeing careful to avoid the pellet, transfer the supernatant to the collection microtubes (expect 500–600 μl). The supernatant may still contain soil or stool particles. This step may require going back with a single 1000 μl Gilson pipette to collect supernatant from individual wells. 
+11. Discard the sealing film. Turn the pipette aspiration speed down! Otherwise, the tips will get blocked by aspirating beads. TBeing careful to avoid the pellet, transfer the supernatant to the collection microtubes (expect 500–600 μl). The supernatant may still contain soil or stool particles. This step may require going back with a single 1000 μl Gilson pipette to collect supernatant from individual wells. 
 
-11. Seal the collection microtubes with the caps provided and vortex. 
+12. Seal the collection microtubes with the caps provided and vortex. 
 
-12. Centrifuge for 12 minutes.
+13. Centrifuge for 12 minutes.
 
-13. Add 600 μl of Solution CD3 to each well of an S-block while the sample plate is centrifuging.
+14. Add 600 μl of Solution CD3 to each well of an S-block while the sample plate is centrifuging.
 
-14. Transfer up to 700 μl of supernatant to the S-Block (expect 500-600 μl). Avoid disrupting the pellet! If the pellet is disrupted or any is aspirated into the pipette, dispense it back into the original plate and re-centrifuge. NONE of the pellet can be transferred into the next step!
+15. Transfer up to 700 μl of supernatant to the S-Block (expect 500-600 μl). Avoid disrupting the pellet! If the pellet is disrupted or any is aspirated into the pipette, dispense it back into the original plate and re-centrifuge. NONE of the pellet can be transferred into the next step!
 
-15. Pipet samples up and down to mix. Use caution to avoid overflowing the wells from the volume of the pipette! 
+16. Pipet samples up and down to mix. Use caution to avoid overflowing the wells from the volume of the pipette! 
 
 	It is safe to stop the protocol at this step and store the samples covered with 	Sealing Tape (user supplied) at 4 °C.  (Option to incubate plate at 10 mins at 4°C even if not pausing the protocol).
 	
-16. Place a QIAamp 96 Spin Plate onto a new S-Block. If protocol was paused with plates at 4 °C, centrifuge briefly before removing plate seal.
+17. Place a QIAamp 96 Spin Plate onto a new S-Block. If protocol was paused with plates at 4 °C, centrifuge briefly before removing plate seal.
 
-17. Load approximately 650 μl into each well of the QIAamp 96 Spin Plate and seal the plate with a sealing tape. 
+18. Load approximately 650 μl into each well of the QIAamp 96 Spin Plate and seal the plate with a sealing tape. 
 
-18. Centrifuge for 6 minutes. 
+19. Centrifuge for 6 minutes. 
 
-19. Discard the flow-through in the sink with vigorous shaking and place the QIAamp 96 Spin Plate back on the same S-Block. Be very careful not to touch the bottom of the filter to anything (including the edges of the S block). Discard the sealing tape. 
+20. Discard the flow-through in the sink with vigorous shaking and place the QIAamp 96 Spin Plate back on the same S-Block. Be very careful not to touch the bottom of the filter to anything (including the edges of the S block). Discard the sealing tape. 
 
-20. Repeat steps 17-19 until all the supernatant has been processed. Discard the final flow-through. 
+21. Repeat steps 17-19 until all the supernatant has been processed. Discard the final flow-through. 
 
 If you haven't already, turn on the heat block and add C6 to bring to 60 °C.
 
