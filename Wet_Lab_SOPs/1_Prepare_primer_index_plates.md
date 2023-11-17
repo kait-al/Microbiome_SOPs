@@ -64,7 +64,7 @@ Therefore we add 20 μL of 200 μM primer stock to 1230 μL PCR-grade water.
 
 5.5 Dispense R primers using "KA_R_Pri_Golay" Beckman protocol (takes approximately 30 minutes per plate). A fresh tip box is required for every plate. Order is very important! Never dispense R before L!
 
-5.6 These protocols generate 1 “stock” plate of all 6 unique layouts, each well within the plate contains 100 µL (50 µL of each L and R unique primer combo). You can proceed directly to step 6.2, or these plates can be sealed with an aluminum plate cover and stored at -80 before aliquoting.
+5.6 These protocols generate 1 “stock” plate of all 6 unique layouts, each well within the plate contains 100 µL (50 µL of each L and R unique primer combo). You can proceed directly to step 6.2, or these plates can be sealed with an aluminum plate cover and stored at -80 C before aliquoting.
 
 ## 6. Aliquot working plates from stock
 
@@ -72,8 +72,4 @@ Therefore we add 20 μL of 200 μM primer stock to 1230 μL PCR-grade water.
 
 6.2 Portion 20 µL from the “stock” plates into 4 duplicates so you end up with 5 x Plate 1- Plate 6 and each plate contains 20 µL (10 µL x  L, 10 µL x R) using protocol "Golay_primer_aliquots".
 
-
-
-
-
-
+6.3 Label all plates, seal with aluminum plate seals, and store at -80 C until use.
