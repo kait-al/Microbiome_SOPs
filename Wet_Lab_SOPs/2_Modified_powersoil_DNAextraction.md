@@ -32,13 +32,14 @@ Important notes before starting:
 1. Centrifuge a PowerBead Pro Plate briefly to ensure that the beads have settled at the bottom. (1 minute at max speed, 3700 RPM or 2250 x g in eppendorf centrifuge)
 
 2. Remove and discard the square well mat from the PowerBead Pro Plate. Add up to 0.25 g of soil sample or up to 0.1 g of stool sample in each well. 
-	Note: Avoid cross contamination between sample wells. All utensils for sample handling should be 10% bleach and RNAse Away sterilized (forceps, scissors, razor blades, mortar and pestle, etc.)
-	1. Stool samples: use a filter pipette tip to scoop up approximately 0.2 g sample and scrape it off the tip into the base of the well.
-	2. Stool on toilet paper: use sterilized forceps and scissors to dissect off a single-ply piece of visibly soiled TP approximately 1 cm x 1 cm, and transfer into the well.
-	3. Swabs: should be polyurethane foam, not cotton or wood. Use sterilized scissors to cut the swab head directly into the well.
-	4. Urine: Should be stored as a frozen pellet. Add 100 μl PCR grade water to resuspend the pellet, and pipette into the well. For very large pellets, 200 μl water may be required.
-	5. Kidney stones: Using sterilized forceps, transfer stone to a sterile cell strainer mounted onto an empty 50 ml tube. Rinse by pipetting 1 ml of PCR-grade water over the external surface. Using freshly-sterilized forceps, transfer the stone to a sterilized mortar and pestle and pulverize into sand-like fragments. Suspend fragments in 100 μl PCR-grade water and pipette into the well.
-	6. Stents: Use a sterilized razor to slice a 1 cm segment from the proximal and distal ends. Rinse external surface by pipetting 1 ml of PCR-grade water over the external surface. Sterilize the razor again and slice open the rinsed segment length-wise to expose the inner lumen, then transfer into the well.
+		
+Note: Avoid cross contamination between sample wells. All utensils for sample handling should be 10% bleach and RNAse Away sterilized (forceps, scissors, razor blades, mortar and pestle, etc.)
+	1. *Stool samples*: use a filter pipette tip to scoop up approximately 0.2 g sample and scrape it off the tip into the base of the well.
+	2. *Stool on toilet paper*: use sterilized forceps and scissors to dissect off a single-ply piece of visibly soiled TP approximately 1 cm x 1 cm, and transfer into the well. See [ref](https://doi.org/10.1016/j.mimet.2017.11.014)
+	3. *Swabs*: should be polyurethane foam, not cotton or wood. Use sterilized scissors to cut the swab head directly into the well.
+	4. *Urine*: Should be stored as a frozen pellet. Add 100 μl PCR grade water to resuspend the pellet, and pipette into the well. For very large pellets, 200 μl water may be required.
+	5. *Kidney stones*: Using sterilized forceps, transfer stone to a sterile cell strainer mounted onto an empty 50 ml tube. Rinse by pipetting 1 ml of PCR-grade water over the external surface. Using freshly-sterilized forceps, transfer the stone to a sterilized mortar and pestle and pulverize into sand-like fragments. Suspend fragments in 100 μl PCR-grade water and pipette into the well.
+	6. *Stents*: Use a sterilized razor to slice a 1 cm segment from the proximal and distal ends. Rinse external surface by pipetting 1 ml of PCR-grade water over the external surface. Sterilize the razor again and slice open the rinsed segment length-wise to expose the inner lumen, then transfer into the well.
 
 3. Add 800 μl of Solution CD1 to the wells of the PowerBead Pro Plate. (Option to add less for low abundance samples that aren’t on swabs such as midstream urine pellets).
 
