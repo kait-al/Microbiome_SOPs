@@ -7,7 +7,7 @@
 This a modified protocol for the Qiagen DNeasy 96 PowerSoil Pro Kit with notes specific for the Burton Lab's equipment.
 
 Sample loading will be sample-type-specific (see step 2). See the following reference for urine and stent -specific info:
-*Al KF, Burton JP. Processing human urine and ureteral stents for 16S rRNA amplicon sequencing. STAR Protocols 2, 100435. [Link](https://doi.org/10.1016/j.xpro.2021.100435)*
+*Al KF, Burton JP. Processing human urine and ureteral stents for 16S rRNA amplicon sequencing. STAR Protocols 2, 100435. [DOI:10.1016/j.xpro.2021.100435](https://doi.org/10.1016/j.xpro.2021.100435)*
 
 
 
@@ -31,7 +31,7 @@ Important notes before starting:
 
 1. Centrifuge a PowerBead Pro Plate briefly to ensure that the beads have settled at the bottom. (1 minute at max speed, 3700 RPM or 2250 x g in eppendorf centrifuge)
 
-2. Remove and discard the square well mat from the PowerBead Pro Plate. Add up to 0.25 g of soil sample or up to 0.1 g of stool sample in each well. Be careful to avoid cross contamination between sample wells. You can print off a nicely formatted 96-well plate layout [here](../96_well_plate.pdf). All utensils for sample handling should be 10% bleach and RNAse Away sterilized (forceps, scissors, razor blades, mortar and pestle, etc.).
+2. Remove and discard the square well mat from the PowerBead Pro Plate. Add up to 0.25 g of soil sample or up to 0.1 g of stool sample in each well. Be careful to avoid cross contamination between sample wells. You can print off a nicely formatted 96-well plate layout [here](96_well_plate.pdf). All utensils for sample handling should be 10% bleach and RNAse Away sterilized (forceps, scissors, razor blades, mortar and pestle, etc.).
 	1. *Stool samples*: use a filter pipette tip to scoop up approximately 0.2 g sample and scrape it off the tip into the base of the well.
 	2. *Stool on toilet paper*: use sterilized forceps and scissors to dissect off a single-ply piece of visibly soiled TP approximately 1 cm x 1 cm, and transfer into the well. See [ref](https://doi.org/10.1016/j.mimet.2017.11.014).
 	3. *Swabs*: should be polyurethane foam, not cotton or wood. Use sterilized scissors to cut the swab head directly into the well.
