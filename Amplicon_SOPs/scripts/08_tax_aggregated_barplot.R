@@ -60,14 +60,14 @@ bugnames<-rownames(y2)
 
 # WITHIN each sample, sum any <1% taxa into the remainder. This is for visual simplification
 # Compare the plot before and after this step
-y3 <- apply( y2 , 2, function(x) {
-  small <- ( x < abund ) #& ( bugnames != "rem" )
-  rare <- sum( x[small] )
-  x[small] <- 0 # *** NA
-  x["remainder"] <- x["remainder"] + rare
-  return(x)
-  #           return(rare) #to this to get ONLY the rare organisms
-} )
+keep.taxa.index = rownames(y2[rowMeans(y2) > abund,])
+
+y3 <- as.data.frame(y2) %>% 
+  filter(rownames(.) %in% keep.taxa.index) %>% 
+  sjmisc::rotate_df() %>% 
+  mutate(remainder= 1- rowSums(.)) %>%
+  sjmisc::rotate_df() %>% 
+  as.matrix(.)
 
 pal <- colorRampPalette(colors = c("steelblue3", "skyblue1", "indianred1", "mediumpurple1", "olivedrab3", "pink", "#FFED6F", "mediumorchid3", "green" , "#9999CC", "#663366", "#999966", "#9999FF", "seashell1", "skyblue1", "yellow", "red", "olivedrab3", "salmon", "#FFED6F", "mediumorchid3", "gray50", "tan1",  "aquamarine3", "#C0C0C0", "royalblue4", "mediumvioletred", "#999933", "deeppink4","wheat1", "#66CCCC", "forestgreen", "yellow4", "darkorange3"))(35)
 barplot(y3, space=0, cex.names=0.15, col=pal, las=2, legend.text = TRUE, lwd = 0.25,
