@@ -7,7 +7,7 @@ This protocol will yield 5 sets of 6 x 96 well plates (576 unique index pairs), 
 
 V4 barcoded primers were designed by Dr. Greg Gloor, see [here](https://github.com/ggloor/miseq_bin/blob/master/Illumina_SOP.pdf) for his original methodology.
 Also see the Earth Microbiome Project 16S protocol [page](https://earthmicrobiome.org/protocols-and-standards/16s/).
-This arraying protocol was originally developed by Dr. Jordan Bisanz.
+This arraying protocol was originally developed by [Dr. Jordan Bisanz](https://github.com/jbisanz).
 
 Before you start: 
 * sterilize the BSC and automated pipettor cabinet with UV/HEPA & RNAzap
