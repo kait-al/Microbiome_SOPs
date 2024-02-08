@@ -18,7 +18,7 @@ S<-c("X101_PU","X102_PU","X103_PU","X104_PU","X105_PU","X106_PU","X107_PU","X108
 H<-c("X450_PU","X451_PU","X452_PU","X453_PU","X454_PU","X455_PU","X457_PU","X458_PU","X459_PU","X460_PU","X462_PU","X463_PU","X464_PU","X465_PU","X467_PU","X469_PU","X470_PU","X471_PU","X472_PU","X474_PU","X475_PU","X476_PU","X477_PU","X478_PU","X479_PU")
 ```
 
-To CLR-transform our data, we can't have zero. We will impute zeroes with the Bayesian-Multiplicative replacement from the zCompositions package. Then we will clr-transform from the CoDaSeq package.
+To CLR-transform our data, we can't have zeroes. We will impute zeroes with the Bayesian-Multiplicative replacement from the zCompositions package. Then we will clr-transform from the CoDaSeq package.
 ```r
 # filtered_counts has samples as rows
 czm <- cmultRepl(filtered_counts, label = 0, method = "CZM", output="p-counts")
