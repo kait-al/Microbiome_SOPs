@@ -107,7 +107,7 @@ ggplot(data=df.pa, aes(x=pa.neg, y=pa.pos, color=contaminant)) + geom_point() +
 write.table(contamdf.prev01, file="contam.prev.01.txt", sep="\t",  quote=F) 
 ```
 
-Now we will determine potential contaminants with on the Frequency mode (based on DNA concentration). If you don't set a threshold, the default is p < 0.1.
+Now we will determine potential contaminants with the Frequency mode (based on DNA concentration). If you don't set a threshold, the default is p < 0.1.
 ```r
 contamdf.freq <- isContaminant(physeq, method="frequency", conc="quant_reading", threshold = 0.05)
 head(contamdf.freq)
