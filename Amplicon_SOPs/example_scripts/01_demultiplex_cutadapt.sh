@@ -40,7 +40,7 @@ cd demultiplex_cutadapt
 
 mkdir trimmed_reads
 
-#remove primers
+# remove V4 primers
 for i in *.1.fastq
 do
 SAMPLE=$(echo ${i} | sed "s/\.1\.fastq//")
@@ -54,3 +54,6 @@ ${SAMPLE}.1.fastq ${SAMPLE}.2.fastq
 done
 
 conda deactivate
+# for V3-V4 BAKT primers 
+#-a CCTACGGGNGGCWGCAG...ATTAGATACCCBDGTAGTC \
+#-A GACTACHVGGGTATCTAAT...CTGCWGCCNCCCGTAGG \
