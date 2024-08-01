@@ -34,7 +34,7 @@ To remove the rubber caps, use forces sterilized with RNase AWAY and gently peel
 *If pipetting manually*
  * Take off one rubber strip cap from the DNA plate at a time to minimize the potential for cross-contamination. Individual strips can be placed on a single sterile kimwipe - discard and replace the wipe between strips.
        
-4. Transfer 2 μL of DNA from the DNA plate into the corresponding wells of the primer/PCR plate. The PCR negative control should not have any DNA template added. If using very low abundance samples, a PCR positive control can be included from previously (successfully) sequenced DNA samples or a [ZYMO standard](https://zymoresearch.eu/collections/zymobiomics-microbial-community-standards).
+4. Transfer 2 μL of DNA from the DNA plate into the corresponding wells of the primer/PCR plate. The PCR negative control should not have any DNA template added, or could be 2 μL of the buffer/PCR water that the DNA was eluted into. If using very low abundance samples, a PCR positive control can be included from previously (successfully) sequenced DNA samples or a [ZYMO DNA standard](https://zymoresearch.eu/collections/zymobiomics-microbial-community-standards).
 
 5. *If using the liquid handling robot* manually transfer 2000 μL of master mix into a new sterile reservoir inside the enclosure. Using the multichannel 20 μL head, transfer 20 μL of the master mix from the reservoir to each well of the primer/PCR plate. *If pipetting manually*, transfer 20 μL master mix from its 1.5 mL aliquot tube directly into the primer/PCR plate. Pipette up and down briefly to mix.
 
