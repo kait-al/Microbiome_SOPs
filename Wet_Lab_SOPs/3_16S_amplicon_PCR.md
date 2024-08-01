@@ -19,7 +19,7 @@ This protocol is based on the Earth Microbiome Project [protocols](https://earth
 
 1. If using pre-arrayed V4 plates generated as per [this protocol](1_Prepare_primer_index_plates.md), thaw the plate at 22 °C and briefly centrifuge. 
 
-Note: If using V3-V4 primers or others that are not pre-arrayed in plates, thaw frozen primers if required, briefly centrifuge, and add 10 uL of each forward and reverse primer per PCR reaction. Attempt to evenly distribute the samples among as many L and R barcodes as possible. For example, for amplification of 24 samples to be sequenced, you might use all 24 F barcodes and a single R, or all 24 R. You would not use 4 different F with 6 different R barcodes, as you are more likely to see primer-dependent biases present in downstream analyses.
+Note: If using V3-V4 primers or others that are not pre-arrayed in plates, thaw frozen primers if required, briefly centrifuge, and add 10 μL of each forward and reverse primer per PCR reaction. Attempt to evenly distribute the samples among as many L and R barcodes as possible. For example, for amplification of 24 samples to be sequenced, you might use all 24 F barcodes and a single R, or all 24 R. You would not use 4 different F with 6 different R barcodes, as you are more likely to see primer-dependent biases present in downstream analyses.
 
 2. If using DNA that has been stored frozen, thaw at 22 °C and briefly centrifuge. Similarly thaw and briefly centrifuge the master mix.
 
