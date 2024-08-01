@@ -66,7 +66,7 @@ Table 2. PCR cycling conditions for V3-V4 primers
 
 Note: For low abundance samples, a higher cycle number can/should be used (25-35). We normally use 25 cycles to reduce chimera formation and partial products. A test amplification should be conducted to ensure that plateau is reached with this number of cycles - 25 cycles is more than sufficient for stool. 
 
-8. Aliquots of random samples should be run on agarose gels to ensure that the reactions proceeded as planned.  Expected band size for V4 is ~300–350 bp, and for V3-V4 is ~440-460. Low-biomass samples may yield faint or no visible bands; alternative methods such as a Bioanalyzer (at Robarts) could be used to verify presence of PCR product.
+8. Aliquots of random samples should be run on agarose gels to ensure that the reactions proceeded as planned.  Expected band size for V4 is ~300–350 bp, and for V3-V4 is ~500-520. Low-biomass samples may yield faint or no visible bands; alternative methods such as a Bioanalyzer (at Robarts) could be used to verify presence of PCR product.
 
 9. Bring samples to David at Robarts for quantification using PicoGreen, pooling at equimolar concentrations, PCR#2 (which adds the illumina pad) and sequencing on the miseq.
 
