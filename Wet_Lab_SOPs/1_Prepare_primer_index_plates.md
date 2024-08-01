@@ -17,7 +17,7 @@ Both forward and reverse primers contain a 12 nucleotide barcode. Therefore, pai
 Primer sequence without linker, pad, or barcode are as follows:
 * V4 (Caporaso version, see [here](https://doi.org/10.1073/pnas.1000080107) and [here](https://doi.org/10.1038/ismej.2012.8)), 515F–806R, FWD:GTGCCAGCMGCCGCGGTAA; REV:GGACTACHVGGGTWTCTAAT
 * V3-V4 (Bakt version, see [here](https://doi.org/10.1038/ismej.2011.41)), 341F-805R, FWD:CCTACGGGNGGCWGCAG; REV:GACTACHVGGGTATCTAATCC
-    * *These are used less frequently by us compared to the V4 primers and so are not typically arrayed in 96 well plates as per this protocol (step 3 onwards). Instead, they are stored in the -80 °C freezer in aliquots at concentrations of 200 and 3.2 μM for long term stock storage and ad hoc use, respectively. Tubes of 3.2 μM must be thawed, briefly centrifuged, and 10 uL of each forward and reverse added per PCR reaction. See V3-V4 specific notes in the [16S_Amplicon_PCR document](3_16S_amplicon_PCR).*
+    * *These are used less frequently by us compared to the V4 primers and so are not typically arrayed in 96 well plates as per this protocol (step 3 onwards). Instead, they are stored in the -80 °C freezer in aliquots at concentrations of 200 and 3.2 μM for long term stock storage and ad hoc use, respectively. Tubes of 3.2 μM must be thawed, briefly centrifuged, and 10 uL of each forward and reverse added per PCR reaction. See V3-V4 specific notes in the [16S_Amplicon_PCR document](3_16S_amplicon_PCR.md).*
 
 
 ## Before you start: 
