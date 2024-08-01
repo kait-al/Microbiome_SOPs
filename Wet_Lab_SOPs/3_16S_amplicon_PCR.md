@@ -8,7 +8,7 @@ The protocol detailed here is designed to amplify prokaryotes (bacteria and arch
 This protocol is based on the Earth Microbiome Project [protocols](https://earthmicrobiome.org/protocols-and-standards/16s/) and was originally developed by Dr. Greg Gloor, see [here](https://github.com/ggloor/miseq_bin/blob/master/Illumina_SOP.pdf).
 
 ## Before you start: 
-* sterilize the BSC and automated pipettor cabinet with UV/HEPA & RNAzap
+* sterilize the BSC and liquid handling robot enclosure with UV/HEPA & RNAzap
 * use a fresh lab coat and gloves
 * use pipettes designated for only PCR and PCR-grade filter tips
 * primers (stock tubes and arrayed plates) are stored in the -80 °C freezer (chest)
