@@ -28,12 +28,10 @@ Note: If using V3-V4 primers or others that are not pre-arrayed in plates, thaw 
 To remove the rubber caps, use forces sterilized with RNase AWAY and gently peel the strip off, being careful not to contact the underside of the strip. If a strip is touched by anything other than the sterile forceps or work surface, it should be discarded and a new strip should be used to replace it. There are enough extra strips for the occasional replacement, but not enough for new strips to be used for every column each time the DNA must be accessed.
 
 *If using a liquid handling robot*
-
 * UV-sterilize a surface area for all 12 strips to be placed at once. The area for each strip must be labelled 1-12 for its corresponding column, and spaced enough so that curved strips will not touch). A large sheet of tin foil that has been labelled with a sharpie and UV sterilized in the BSC works well for this.
 * Once all strip caps are removed, seal the DNA plate with a sealing mat or foil seal to transfer between the BSC and the robot enclosure. Once the plate is in position inside the enclosure, remove the seal.
     
 *If pipetting manually*
-
  * Take off one rubber strip cap from the DNA plate at a time to minimize the potential for cross-contamination. Individual strips can be placed on a single sterile kimwipe - discard and replace the wipe between strips.
        
 4. Transfer 2 μL of DNA from the DNA plate into the corresponding wells of the primer/PCR plate. The PCR negative control should not have any DNA template added. If using very low abundance samples, a PCR positive control can be included from previously (successfully) sequenced DNA samples or a [ZYMO standard](https://zymoresearch.eu/collections/zymobiomics-microbial-community-standards).
