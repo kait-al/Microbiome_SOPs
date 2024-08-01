@@ -11,8 +11,8 @@ This protocol is based on the Earth Microbiome Project [protocols](https://earth
 * sterilize the BSC and automated pipettor cabinet with UV/HEPA & RNAzap
 * use a fresh lab coat and gloves
 * use pipettes designated for only PCR and PCR-grade filter tips
-* primers (stock tubes and arrayed plates) are stored in the -80 °C freezer (#)
-* Promega GoTaq hot-start colorless master mix is stored in the -20 °C chest freezer (#) in 1 mL aliquots (labelled 'MM'). 2 x 1 mL aliquots are required for a full 96-well plate.
+* primers (stock tubes and arrayed plates) are stored in the -80 °C freezer (chest)
+* Promega GoTaq hot-start colorless master mix is stored in the -20 °C chest freezer (#7) in 1 mL aliquots (labelled 'MM'). 2 x 1 mL aliquots are required for a full 96-well plate.
 
 
 ## Procedure
@@ -29,12 +29,12 @@ To remove the rubber caps, use forces sterilized with RNase AWAY and gently peel
 
 *If using a liquid handling robot*
 
-    * If using a liquid handling robot, UV-sterilize a surface area for all 12 strips to be placed at once. The area for each strip must be labelled 1-12 for its corresponding column, and spaced enough so that curved strips will not touch). A large sheet of tin foil that has been labelled with a sharpie and UV sterilized in the BSC works well for this.
-    * Once all strip caps are removed, seal the DNA plate with a sealing mat or foil seal to transfer between the BSC and the robot enclosure. Once the plate is in position inside the enclosure, remove the seal.
+* UV-sterilize a surface area for all 12 strips to be placed at once. The area for each strip must be labelled 1-12 for its corresponding column, and spaced enough so that curved strips will not touch). A large sheet of tin foil that has been labelled with a sharpie and UV sterilized in the BSC works well for this.
+* Once all strip caps are removed, seal the DNA plate with a sealing mat or foil seal to transfer between the BSC and the robot enclosure. Once the plate is in position inside the enclosure, remove the seal.
     
 *If pipetting manually*
 
-    * Take off one rubber strip cap from the DNA plate at a time to minimize the potential for cross-contamination. Individual strips can be placed on a single sterile kimwipe - discard and replace the wipe between strips.
+ * Take off one rubber strip cap from the DNA plate at a time to minimize the potential for cross-contamination. Individual strips can be placed on a single sterile kimwipe - discard and replace the wipe between strips.
        
 4. Transfer 2 μL of DNA from the DNA plate into the corresponding wells of the primer/PCR plate. The PCR negative control should not have any DNA template added. If using very low abundance samples, a PCR positive control can be included from previously (successfully) sequenced DNA samples or a [ZYMO standard](https://zymoresearch.eu/collections/zymobiomics-microbial-community-standards).
 
@@ -45,7 +45,9 @@ To remove the rubber caps, use forces sterilized with RNase AWAY and gently peel
 7. Carry out amplification in the thermocycler with the lid temperature maintained at 104 °C and the cycle conditions as stated in Table 1 or 2 for V4 or V3-V4 primers, respectively.
 
 Table 1. PCR cycling conditions for V4 primers
+
 | Steps | Temperature | Time | Cycles |
+|:---:|:---:|:---:|:---:|
 | Warm-up | 95 °C | 4 min | 1 |
 | Denaturing | 95 °C | 1 min | 25 cycles |
 | Annealing | 52 °C | 1 min  |  |
@@ -54,7 +56,9 @@ Table 1. PCR cycling conditions for V4 primers
 | Hold | 4 °C | Forever |  |
 
 Table 2. PCR cycling conditions for V3-V4 primers
+
 | Steps | Temperature | Time | Cycles |
+|:---:|:---:|:---:|:---:|
 | Warm-up | 95 °C | 4 min | 1 |
 | Denaturing | 95 °C | 1 min | 25 cycles |
 | Annealing | 50 °C | 1 min  |  |
