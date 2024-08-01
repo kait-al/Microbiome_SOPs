@@ -23,7 +23,7 @@ Primer sequence without linker, pad, or barcode are as follows:
 ## Before you start: 
 * sterilize the BSC and automated pipettor cabinet with UV/HEPA & RNAzap
 * use a fresh lab coat and gloves
-* use pipettes designated for only PCR and filter tips
+* use pipettes designated for only PCR and PCR-grade filter tips
 
 
 ## 1. Order primers
