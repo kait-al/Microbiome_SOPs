@@ -9,7 +9,18 @@ V4 barcoded primers were designed by Dr. Greg Gloor, see [here](https://github.c
 Also see the Earth Microbiome Project 16S protocol [page](https://earthmicrobiome.org/protocols-and-standards/16s/).
 This arraying protocol was originally developed by [Dr. Jordan Bisanz](https://github.com/jbisanz).
 
-Before you start: 
+
+## Primers
+
+Both forward and reverse primers contain a 12 nucleotide barcode. Therefore, paired reads from a single sample have a unique, differentiating, combination of forward and reverse barcodes.
+
+Primer sequence without linker, pad, or barcode are as follows:
+* V4 (Caporaso version, see [here](https://doi.org/10.1073/pnas.1000080107) and [here](https://doi.org/10.1038/ismej.2012.8)), 515F–806R, FWD:GTGCCAGCMGCCGCGGTAA; REV:GGACTACHVGGGTWTCTAAT
+* V3-V4 (Bakt version, see [here](https://doi.org/10.1038/ismej.2011.41)), 341F-805R, FWD:CCTACGGGNGGCWGCAG; REV:GACTACHVGGGTATCTAATCC
+    * *These are used less frequently by us compared to the V4 primers and so are not typically arrayed in 96 well plates as per this protocol (step 3 onwards). Instead, they are stored in the -80 °C freezer in aliquots at concentrations of 200 and 3.2 μM for long term stock storage and ad hoc use, respectively. Tubes of 3.2 μM must be thawed, briefly centrifuged, and 10 uL of each forward and reverse added per PCR reaction. See V3-V4 specific notes in the [16S_Amplicon_PCR document](3_16S_amplicon_PCR).*
+
+
+## Before you start: 
 * sterilize the BSC and automated pipettor cabinet with UV/HEPA & RNAzap
 * use a fresh lab coat and gloves
 * use pipettes designated for only PCR and filter tips
